@@ -1,0 +1,25 @@
+{
+  "name": "scala-score",
+  "version": "0.1.0",
+  "description": "JavaScript/TypeScript SDK for S.C.A.L.A. Score API — Search 244M+ companies worldwide",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["company-data", "business-intelligence", "api", "score", "scala", "crm"],
+  "author": "S.C.A.L.A. AI OS <ale@get-scala.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alessandro114/scala-score-js.git"
+  },
+  "homepage": "https://get-scala.com/score",
+  "files": ["dist"],
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  }
+}
