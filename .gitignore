@@ -1,5 +1,5 @@
 node_modules/
-dist/
+# dist/ — committed for npm consumers
 *.js
 *.d.ts
 *.js.map
