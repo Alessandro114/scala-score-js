@@ -7,9 +7,18 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest"
   },
-  "keywords": ["company-data", "business-intelligence", "api", "score", "scala", "crm"],
+  "keywords": [
+    "company-data",
+    "business-intelligence",
+    "api",
+    "score",
+    "scala",
+    "crm"
+  ],
   "author": "S.C.A.L.A. AI OS <ale@get-scala.com>",
   "license": "MIT",
   "repository": {
@@ -17,9 +26,13 @@
     "url": "https://github.com/Alessandro114/scala-score-js.git"
   },
   "homepage": "https://get-scala.com/score",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@vitest/coverage-v8": "^2.1.9",
     "typescript": "^5.3.0",
-    "@types/node": "^20.0.0"
+    "vitest": "^2.1.0"
   }
 }

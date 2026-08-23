@@ -1,7 +1,9 @@
-node_modules/
-# dist/ — committed for npm consumers
-*.js
-*.d.ts
-*.js.map
 !src/**
+# dist/ — committed for npm consumers
+*.d.ts
+*.js
+*.js.map
 .env
+coverage/
+node_modules/
+node_modules/
