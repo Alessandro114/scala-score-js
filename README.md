@@ -1,5 +1,6 @@
 # S.C.A.L.A. Score — JavaScript/TypeScript SDK
 
+[![CI](https://github.com/Alessandro114/scala-score-js/actions/workflows/ci.yml/badge.svg)](https://github.com/Alessandro114/scala-score-js/actions/workflows/ci.yml) [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/Alessandro114/scala-score-js/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/scala-score)](https://www.npmjs.com/package/scala-score)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Companies](https://img.shields.io/badge/companies-244M%2B-green)](https://get-scala.com/score)
