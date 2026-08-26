@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: '20' }
+        with: { node-version: '22' }
       # npm ci e non npm install: fallisce se package-lock.json non e
       # allineato, che e esattamente il difetto che vogliamo vedere qui e
       # non sul portatile di chi clona.
