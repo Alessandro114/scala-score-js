@@ -1,9 +1,12 @@
 {
   "name": "scala-score",
-  "version": "0.1.0",
-  "description": "JavaScript/TypeScript SDK for S.C.A.L.A. Score API — Search 244M+ companies worldwide",
+  "version": "0.2.0",
+  "description": "JavaScript/TypeScript SDK + CLI for S.C.A.L.A. Score API — Search 244M+ companies worldwide",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "scala-score": "dist/cli.js"
+  },
   "type": "module",
   "scripts": {
     "build": "tsc",
