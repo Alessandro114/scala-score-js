@@ -3,9 +3,9 @@
 [![CI](https://github.com/Alessandro114/scala-score-js/actions/workflows/ci.yml/badge.svg)](https://github.com/Alessandro114/scala-score-js/actions/workflows/ci.yml) [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/Alessandro114/scala-score-js/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/scala-score)](https://www.npmjs.com/package/scala-score)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![Companies](https://img.shields.io/badge/companies-244M%2B-green)](https://get-scala.com/score)
+[![Companies](https://img.shields.io/badge/companies-249M%2B-green)](https://get-scala.com/score)
 
-Search **244M+ companies** across **40+ countries** from government registries. Zero scraping, just official public data normalized into a single API.
+Search **249M+ companies** across **264 countries** from government registries. Zero scraping, just official public data normalized into a single API.
 
 ## Install
 
@@ -88,3 +88,7 @@ Compare: Dun & Bradstreet charges €2-5 per lookup. ZoomInfo starts at $15K/yea
 ## License
 
 MIT
+
+## Data coverage
+
+S.C.A.L.A. Score holds about 249 million company records from public registries and open data in 264 countries (home page of [score.get-scala.com](https://score.get-scala.com): "Data from official registries in 264 countries · 249,353,619 companies", checked 03/11/2026). Not all records have financial data, and coverage varies by country: revenue, employees and score are shown only where the source publishes them. Always check each field before relying on it.
