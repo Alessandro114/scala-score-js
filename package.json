@@ -1,7 +1,7 @@
 {
   "name": "scala-score",
   "version": "0.1.0",
-  "description": "JavaScript/TypeScript SDK for S.C.A.L.A. Score API — Search 244M+ companies worldwide",
+  "description": "JavaScript/TypeScript SDK for S.C.A.L.A. Score API — Search 249M+ companies worldwide",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
