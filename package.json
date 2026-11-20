@@ -1,6 +1,6 @@
 {
   "name": "scala-score",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "JavaScript/TypeScript SDK for S.C.A.L.A. Score API — Search 249M+ companies worldwide",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,11 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Alessandro114/scala-score-js.git"
+    "url": "git+https://github.com/Alessandro114/scala-score-js.git"
   },
   "homepage": "https://get-scala.com/score",
   "files": [
-    "dist"
+    "dist",
+    "!dist/**/*.test.*"
   ],
   "devDependencies": {
     "@types/node": "^20.0.0",
